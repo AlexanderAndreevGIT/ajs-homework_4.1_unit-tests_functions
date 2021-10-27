@@ -1,7 +1,6 @@
 {
-  "name": "ajs",
+  "name": "unit-test_functions",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -15,7 +14,7 @@
     "show:dist": "live-server dist"
   },
   "author": "coursar",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
@@ -23,9 +22,9 @@
     "babel-jest": "^25.4.0",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.2.0",
     "jest": "^25.4.0",
@@ -37,5 +36,14 @@
   },
   "dependencies": {
     "core-js": "^3.6.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderAndreevGIT/ajs-homework_4.1_unit-tests_functions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexanderAndreevGIT/ajs-homework_4.1_unit-tests_functions/issues"
+  },
+  "homepage": "https://github.com/AlexanderAndreevGIT/ajs-homework_4.1_unit-tests_functions#readme",
+  "description": ""
 }

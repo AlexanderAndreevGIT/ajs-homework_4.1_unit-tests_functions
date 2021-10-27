@@ -1,7 +1,12 @@
-export default function sum(items) {
-  let result = 0;
-  for (const item of items) {
-    result += item;
+export default function healthIndicator(input) {
+  let result = '';
+
+  if (input.health > 50) {
+    result = 'healthy';
+  } else if (input.health < 15) {
+    result = 'critical';
+  } else {
+    result = 'wounder';
   }
   return result;
 }
